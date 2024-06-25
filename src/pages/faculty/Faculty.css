@@ -1,0 +1,40 @@
+.layout {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  width: 100%;
+  gap: 30px;
+}
+
+.right {
+  width: 100%;
+  padding: 8px 0 0;
+}
+
+.left {
+  width: 45%;
+  padding: 20px 20px 20px 0;
+}
+
+.create_change {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-end;
+  gap: 20px;
+  position: relative; /* Changed to relative to allow button to flow below */
+}
+
+.create_change p {
+  font-weight: 600;
+}
+
+.create_change button span {
+  display: flex;
+  gap: 6px;
+}
+
+.create_change .btns {
+  display: flex;
+  gap: 15px;
+}
