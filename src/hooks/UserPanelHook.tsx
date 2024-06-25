@@ -14,7 +14,7 @@ export const changeValue = (
           placeholder={placeholder}
           data={data || []}
           label=""
-          onChange={() => {}} // Пример фиктивной функции onChange
+          onChange={() => {}}
         />
       );
     case "Input":

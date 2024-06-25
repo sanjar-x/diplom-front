@@ -21,10 +21,9 @@ const App = () => {
         <Routes>
           {/* <Route path='/' element={<h2>My Website</h2>} /> */}
           <Route path="/fakultet" element={<Faculty />} />
-          <Route path="/xodimlar-bazasi" element={<UserPanel />} />
           <Route path="/kafedra" element={<Department />} />
-          <Route path="/xodimlar-royxati" element={<ListOFEmployees />} />
-          <Route path="/bolim" element={<Division />} />
+          <Route path="xodimlar-bazasi" element={<UserPanel />} />
+          <Route path="xodimlar-royxati" element={<ListOFEmployees />} />
           <Route path="/bolim" element={<Division />} />
         </Routes>
       </Sidebar>
